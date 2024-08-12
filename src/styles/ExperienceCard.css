@@ -1,0 +1,60 @@
+/* src/components/ExperienceCard.css */
+
+.experience-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin: 1rem;
+    max-width: 430px;
+    height: 500px;
+    text-align: center;
+  }
+
+  .experience-image {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    border-radius: 50%; /* Optional: make the image circular */
+    margin: 0 auto 1rem auto; /* Center the image horizontally and add space below */
+    display: block; /* Ensure the image is treated as a block element */
+  }
+  
+  
+  .experience-title {
+    font-size: 1.5rem;
+    color: #023e8a;
+    margin-bottom: 0.5rem;
+  }
+
+  .experience-subtitle {
+    font-size: 1.2rem;
+    color: grey;
+    margin-bottom: 0.5rem;
+  }
+  
+  
+  .experience-description {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .experience-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .skill-pill {
+    background-color: #fff;
+    border: 2px solid #023e8a;
+    border-radius: 9999px;
+    padding: 0.25rem 0.75rem;
+    color: #023e8a;
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  

@@ -1,0 +1,83 @@
+/* src/components/Home.css */
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontally center the content */
+  padding: 6rem;
+  min-height: 100vh; /* Ensure the container takes up the full viewport height */
+  text-align: center; /* Center the text */
+  background: linear-gradient(to bottom, #a2d2ff, #a8dadc); /* Add background for better visibility */
+}
+
+.description {
+  max-width: 600px;
+  width: 100%;
+}
+
+.home-title {
+  font-size: 3rem; /* Slightly larger for better emphasis */
+  color: #023e8a; /* Keep the title color */
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.home-subtitle {
+  font-size: 2rem; /* Adjust size for the subtitle */
+  color: #000000; /* Black for subtitle */
+  margin-bottom: 1rem;
+}
+
+.home-description {
+  font-size: 1.2rem; /* Slightly larger for readability */
+  color: #333333; /* Dark gray for the description text */
+  line-height: 1.6; /* Improve readability */
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.icon {
+  font-size: 2.5rem; /* Adjust icon size */
+  color: #333333; /* Icon color */
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #023e8a; /* Change color on hover */
+}
+
+.headshot {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image covers the entire area */
+}
+.headshot-container {
+  margin-top: 2rem;
+  overflow: hidden; 
+}
+
+.headshot-container img {
+  object-fit: cover;
+}
+
+.section-title {
+  margin-top: 50px;
+  font-size: 2.5rem;
+  color: #023e8a;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}

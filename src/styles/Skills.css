@@ -1,0 +1,59 @@
+/* src/components/Skills.css */
+
+.skills-section {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .skills-title {
+    font-size: 2.5rem;
+    color: #023e8a;
+    margin-bottom: 1.5rem;
+  }
+  
+  .skills-category {
+    margin-bottom: 1.5rem;
+  }
+  
+  .skills-category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #333333;
+  }
+  
+  .skills-grid {
+    display: flex;
+    justify-content: center; /* Center the skill cards */
+    flex-wrap: wrap; /* Allow wrapping if necessary */
+    gap: 0.8rem; /* Reduced spacing between the cards */
+    max-width: 800px; /* Max width to limit the width of the grid */
+    margin: 0 auto; /* Center the grid within the section */
+  }
+  
+  .skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #023e8a;
+    color: white;
+    padding: 0.5rem; 
+    border-radius: 8px;
+    width: 100px; 
+    height: 130px; 
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .skill-card p {
+    margin-top: 0.3rem;
+    font-size: 1rem; 
+  }
+
+  .skill-card svg {
+    font-size: 2rem; 
+  }
