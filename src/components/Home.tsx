@@ -2,7 +2,7 @@
 
 'use client';
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import '../styles/Home.css'; 
 import Image from 'next/image';  
 import headshotImage from '../assets/headshot.jpg';
