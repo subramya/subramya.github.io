@@ -2,7 +2,6 @@
 
 'use client';
 
-import { useState } from 'react';
 import '../styles/Home.css'; 
 import Image from 'next/image';  
 import headshotImage from '../assets/headshot.jpg';
@@ -15,8 +14,7 @@ import Header from '../components/Header';
 
 
 const Home: React.FC = () => {
-  const [darkMode, setDarkMode] = useState(false);
-  const [showMenu, setShowMenu] = useState(false);
+
 
   return (
     <div className="main">
